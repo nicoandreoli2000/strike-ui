@@ -1,6 +1,6 @@
 {
   "name": "testing-strike-ui",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "repository": "git@github.com:nicoandreoli2000/strike-ui.git",
   "author": "Nicolas Andreoli <nicolasandreoli2000@hotmail.com>",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "devDependencies": {
     "@parcel/packager-ts": "^2.5.0",
     "@parcel/transformer-typescript-types": "^2.5.0",
-    "@types/react": "^18.0.6",
+    "@types/react": "^17.0.2",
     "parcel": "^2.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -23,8 +23,5 @@
   },
   "peerDependencies": {
     "react": "^17.0.2"
-  },
-  "dependencies": {
-    "@parcel/transformer-typescript-tsc": "^2.5.0"
   }
 }
