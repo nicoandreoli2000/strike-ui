@@ -1,11 +1,17 @@
-import { FC, HTMLProps } from "react";
-export interface IButton extends HTMLProps<HTMLButtonElement> {
+import { FC } from "react";
+import { ButtonProps, Button as ChakraButton } from "@chakra-ui/react";
+export interface IButton extends ButtonProps {
   testProp: string;
 }
-export const Button: FC<IButton> = ({ testProp, children, onClick }) => {
+export const Button: FC<IButton> = ({
+  testProp,
+  children,
+  onClick,
+  ...props
+}) => {
   return (
-    <button onClick={onClick}>
+    <ChakraButton {...props}>
       Test prop: {testProp} - Children: {children}
-    </button>
+    </ChakraButton>
   );
 };

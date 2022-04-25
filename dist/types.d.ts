@@ -1,5 +1,6 @@
-import { FC, HTMLProps } from "react";
-export interface IButton extends HTMLProps<HTMLButtonElement> {
+import { FC } from "react";
+import { ButtonProps } from "@chakra-ui/react";
+export interface IButton extends ButtonProps {
     testProp: string;
 }
 export const Button: FC<IButton>;

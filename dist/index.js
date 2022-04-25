@@ -1,4 +1,5 @@
 var $8zHUo$reactjsxruntime = require("react/jsx-runtime");
+var $8zHUo$chakrauireact = require("@chakra-ui/react");
 
 function $parcel$exportWildcard(dest, source) {
   Object.keys(source).forEach(function(key) {
@@ -23,9 +24,10 @@ var $32eadc3ce11727ee$exports = {};
 
 $parcel$export($32eadc3ce11727ee$exports, "Button", () => $32eadc3ce11727ee$export$353f5b6fc5456de1);
 
-const $32eadc3ce11727ee$export$353f5b6fc5456de1 = ({ testProp: testProp , children: children , onClick: onClick  })=>{
-    return /*#__PURE__*/ $8zHUo$reactjsxruntime.jsxs("button", {
-        onClick: onClick,
+
+const $32eadc3ce11727ee$export$353f5b6fc5456de1 = ({ testProp: testProp , children: children , onClick: onClick , ...props })=>{
+    return /*#__PURE__*/ $8zHUo$reactjsxruntime.jsxs($8zHUo$chakrauireact.Button, {
+        ...props,
         children: [
             "Test prop: ",
             testProp,
