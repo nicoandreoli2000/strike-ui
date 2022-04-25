@@ -20,12 +20,12 @@ function $parcel$exportWildcard(dest, source) {
 function $parcel$export(e, n, v, s) {
   Object.defineProperty(e, n, {get: v, set: s, enumerable: true, configurable: true});
 }
-var $32eadc3ce11727ee$exports = {};
+var $6ab71aa90505fd93$exports = {};
 
-$parcel$export($32eadc3ce11727ee$exports, "Button", () => $32eadc3ce11727ee$export$353f5b6fc5456de1);
+$parcel$export($6ab71aa90505fd93$exports, "Button", () => $6ab71aa90505fd93$export$353f5b6fc5456de1);
 
 
-const $32eadc3ce11727ee$export$353f5b6fc5456de1 = ({ testProp: testProp , children: children , ...props })=>{
+const $6ab71aa90505fd93$export$353f5b6fc5456de1 = ({ testProp: testProp , children: children , ...props })=>{
     return /*#__PURE__*/ $8zHUo$reactjsxruntime.jsxs($8zHUo$chakrauireact.Button, {
         ...props,
         children: [
@@ -38,7 +38,7 @@ const $32eadc3ce11727ee$export$353f5b6fc5456de1 = ({ testProp: testProp , childr
 };
 
 
-$parcel$exportWildcard(module.exports, $32eadc3ce11727ee$exports);
+$parcel$exportWildcard(module.exports, $6ab71aa90505fd93$exports);
 
 
 //# sourceMappingURL=index.js.map

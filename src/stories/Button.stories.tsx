@@ -13,8 +13,13 @@ export default {
   component: Button,
 } as ComponentMeta<typeof Button>;
 
-//👇 We create a “template” of how args map to rendering
-// const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
-
-export const Primary = () => <Button color="red">Button</Button>;
-export const Secondary = () => <Button color="green">Button</Button>;
+export const Primary = () => (
+  <Button testProp="primary btn" color="red">
+    Button
+  </Button>
+);
+export const Secondary = () => (
+  <Button testProp="secondary btn" color="green">
+    Button
+  </Button>
+);
