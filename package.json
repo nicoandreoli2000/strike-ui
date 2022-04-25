@@ -12,8 +12,8 @@
     "start": "parcel watch",
     "build": "parcel build",
     "clean": "rm -rf node_modules dist .parcel-cache",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "sb": "start-storybook -p 6006",
+    "build-sb": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",

@@ -1,8 +1,8 @@
 import { FC } from "react";
-import { ButtonProps } from "@chakra-ui/react";
-export interface IButton extends ButtonProps {
+import { ButtonProps as _ButtonProps1 } from "@chakra-ui/react";
+export interface ButtonProps extends _ButtonProps1 {
     testProp: string;
 }
-export const Button: FC<IButton>;
+export const Button: FC<ButtonProps>;
 
 //# sourceMappingURL=types.d.ts.map
