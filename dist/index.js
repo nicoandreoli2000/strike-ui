@@ -25,7 +25,7 @@ var $32eadc3ce11727ee$exports = {};
 $parcel$export($32eadc3ce11727ee$exports, "Button", () => $32eadc3ce11727ee$export$353f5b6fc5456de1);
 
 
-const $32eadc3ce11727ee$export$353f5b6fc5456de1 = ({ testProp: testProp , children: children , onClick: onClick , ...props })=>{
+const $32eadc3ce11727ee$export$353f5b6fc5456de1 = ({ testProp: testProp , children: children , ...props })=>{
     return /*#__PURE__*/ $8zHUo$reactjsxruntime.jsxs($8zHUo$chakrauireact.Button, {
         ...props,
         children: [
